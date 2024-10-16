@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Creepy";
-    src: url("Fonts/Creepy.woff") format("woff"),
-         url("Fonts/Creepy.woff2") format("woff2");
+    src: url("Lunacy.woff") format("woff"),
+         url("Creepy.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Lunacy";
-    src: url("Fonts/Lunacy.woff") format("woff"),
-         url("Fonts/Lunacy.woff2") format("woff2");
+    src: url("Lunacy.woff") format("woff"),
+         url("Lunacy.woff2") format("woff2");
 }
 
 * {
@@ -16,7 +16,7 @@
 
 html {
   min-height: 100vh;
-  cursor: url(Cursors\Ghost.cur), auto;
+  cursor: url(Ghost.cur), auto;
   font-family: Lunacy;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .card {
   position: relative;
-  cursor: url("Cursors\GhostHover.cur"), auto;
+  cursor: url("GhostHover.cur"), auto;
   height: 175px;
   width: 125px;
 }
