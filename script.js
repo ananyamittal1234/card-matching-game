@@ -1,10 +1,10 @@
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('Audio/creepy.mp3');
-        this.flipSound = new Audio('Audio/flip.wav');
-        this.matchSound = new Audio('Audio/match.wav');
-        this.victorySound = new Audio('Audio/victory.wav');
-        this.gameOverSound = new Audio('Audio/gameOver.wav');
+        this.bgMusic = new Audio('creepy.mp3');
+        this.flipSound = new Audio('flip.wav');
+        this.matchSound = new Audio('match.wav');
+        this.victorySound = new Audio('victory.wav');
+        this.gameOverSound = new Audio('gameOver.wav');
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
